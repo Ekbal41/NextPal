@@ -1,6 +1,6 @@
 "use client";
 
-import { AtSignIcon, CalendarIcon, StarIcon } from "@chakra-ui/icons";
+import { AtSignIcon,  } from "@chakra-ui/icons";
 import {
   Badge,
   Box,
@@ -9,7 +9,7 @@ import {
   Grid,
   Heading,
   Icon,
-  IconButton,
+
   Text,
   Tooltip,
 } from "@chakra-ui/react";
@@ -103,7 +103,7 @@ export default function ItemCard({ item }) {
               colorScheme="cyan"
               cursor={"pointer"}
             >
-              22 Tutor's Applied
+              22 Tutors Applied
             </Text>
           </Box>
           <Box>
