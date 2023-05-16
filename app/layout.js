@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Providers>
-          <Box bg={"gray.100"} h={"100vh"}>
+          <Box bg={"gray.100"} h={"full"}>
             {children}
           </Box>
         </Providers>
